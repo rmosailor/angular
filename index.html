@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL DE NOTÍCIAS GALACTICA</title>
+    <link rel="stylesheet" href="./styles/card.css">
+    <script src="./src/Components/CardNews.js" defer></script>
+</head>
+
+<body>
+    <div class="app-root">
+        <!-- <div class="card">
+
+            <div class="card__left">
+                <span> Roberto Marujo </span>
+                <a href="#">Darth Vader Contrata Devs </a>
+                <p>Darth Vader procura desenvoldedores que sabem trabalhar com componentes</p>
+            </div>
+
+            <div class="card__right">
+                <img src="./assets/DarthCofee.jpg" alt="Foto" srcset="">
+            </div>
+
+        </div> -->
+
+        <card-news 
+            author="Darth Vader" 
+            title="Darth Vader Contrata Devs"
+            description="Darth Vader procura desenvoldedores que sabem trabalhar com componentes"
+            img="./assets/DarthCofee.jpg"
+            imgAlt="Foto da notícia">
+        </card-news>
+        
+        <card-news 
+            author="Princesa Leia" 
+            title="Princesa Leia Contrata Hackers"
+            description="Princesa Leia procura hackers que sabem detonar com componentes"
+            img="./assets/LeiaCafeine.jpg"
+            imgAlt="Foto da notícia">
+        </card-news>
+
+</body>
+
+</html>
